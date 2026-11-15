@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+{% assign document_lang = page.lang | default: site.locale %}
+
+<!doctype html>
+<html lang="{{ document_lang }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    <a class="skip-to-content" href="#main">{% if page.lang == "zh-CN" %}跳到正文{% else %}Skip to content{% endif %}</a>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    {% include media-preview.html %}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    <button id="back-to-top" class="back-to-top site-nav__control" type="button" aria-label="{% if page.lang == 'zh-CN' %}回到顶部{% else %}Back to top{% endif %}" title="{% if page.lang == 'zh-CN' %}回到顶部{% else %}Back to top{% endif %}" hidden>
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

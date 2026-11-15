@@ -1,0 +1,28 @@
+{% assign skills_label_key = 'en' %}
+{% if page.lang == 'zh-CN' %}{% assign skills_label_key = 'zh' %}{% endif %}
+<div class="skills-mindmap" data-language="{{ skills_label_key }}">
+  <div class="skills-mindmap__toolbar" hidden>
+    <div class="skills-mindmap__actions" role="group" aria-label="{% if skills_label_key == 'zh' %}技能树视图控制{% else %}Skills map view controls{% endif %}">
+      <button type="button" data-map-action="out" aria-label="{% if skills_label_key == 'zh' %}缩小技能树{% else %}Zoom out{% endif %}">−</button>
+      <output class="skills-mindmap__zoom" aria-live="polite" aria-label="{% if skills_label_key == 'zh' %}缩放比例{% else %}Zoom level{% endif %}">100%</output>
+      <button type="button" data-map-action="in" aria-label="{% if skills_label_key == 'zh' %}放大技能树{% else %}Zoom in{% endif %}">+</button>
+      <button type="button" data-map-action="fit">{% if skills_label_key == 'zh' %}全图{% else %}Fit{% endif %}</button>
+      <button type="button" data-map-action="reset" aria-label="{% if skills_label_key == 'zh' %}恢复原始大小{% else %}Restore actual size{% endif %}">100%</button>
+    </div>
+    <div class="skills-mindmap__branches" role="group" aria-label="{% if skills_label_key == 'zh' %}定位技能分支{% else %}Locate a skills branch{% endif %}">
+      {% for branch in site.data.skills.children %}
+      <button type="button" data-focus-branch="{{ branch.id }}" data-branch="{{ branch.id }}" aria-label="{% if skills_label_key == 'zh' %}定位{{ branch.zh }}分支{% else %}Locate {{ branch.en }}{% endif %}">{% if skills_label_key == 'zh' %}{{ branch.zh }}{% else %}{{ branch.en }}{% endif %}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div id="skills-mindmap-key" class="skills-mindmap__key">
+    <span>{% if skills_label_key == 'zh' %}实线：方向与能力{% else %}Solid: capabilities{% endif %}</span>
+    <span class="skills-mindmap__key-tool">{% if skills_label_key == 'zh' %}虚线：工具与技术{% else %}Dashed: tools and technologies{% endif %}</span>
+  </div>
+  <div class="skills-mindmap__viewport" tabindex="0" role="region" aria-label="{% if skills_label_key == 'zh' %}技能思维导图{% else %}Skills mind map{% endif %}" aria-describedby="skills-mindmap-key" aria-busy="true">
+    <div class="skills-mindmap__stage">
+      <div class="skills-mindmap__canvas"></div>
+    </div>
+  </div>
+  <script type="application/json" class="skills-mindmap__data">{{ site.data.skills | jsonify }}</script>
+</div>

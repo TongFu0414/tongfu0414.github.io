@@ -1,0 +1,25 @@
+groups:
+  - id: models
+    title_en: "Multimodal Models"
+    title_zh: "多模态模型"
+    items:
+      - title: "Qwen — Official Model Repository"
+        url: "https://github.com/QwenLM/Qwen3.8"
+        type: "Models and code"
+        source: "Qwen Team"
+      - title: "DeepSeek-VL2"
+        url: "https://github.com/deepseek-ai/DeepSeek-VL2"
+        type: "Models and code"
+        source: "DeepSeek AI"
+  - id: benchmarks
+    title_en: "Tabular Reasoning Benchmarks"
+    title_zh: "表格推理基准"
+    items:
+      - title: "WikiTableQuestions"
+        url: "https://github.com/ppasupat/WikiTableQuestions"
+        type: "Dataset"
+        source: "Original project repository"
+      - title: "TabFact"
+        url: "https://github.com/wenhuchen/Table-Fact-Checking"
+        type: "Dataset and code"
+        source: "Original project repository"

@@ -1,0 +1,17 @@
+<div class="learning-resources">
+  {% for group in site.data.learning_resources.groups %}
+    <details class="project-details learning-resource-group">
+      <summary>{% if page.lang == "zh-CN" %}{{ group.title_zh | escape }}{% else %}{{ group.title_en | escape }}{% endif %} <span class="learning-resource-group__count">({{ group.items.size }})</span></summary>
+      <ul class="learning-resource-list">
+        {% for resource in group.items %}
+          <li class="learning-resource">
+            <a class="learning-resource__link" href="{{ resource.url | escape }}" target="_blank" rel="noopener noreferrer">
+              <span class="learning-resource__title">{{ resource.title | escape }}</span>
+              {% if resource.type or resource.source %}<span class="learning-resource__meta">{{ resource.type | escape }}{% if resource.type and resource.source %} · {% endif %}{{ resource.source | escape }}</span>{% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endfor %}
+</div>
