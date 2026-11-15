@@ -102,7 +102,7 @@ skills_mindmap: true
   2020 年 9 月至 2024 年 7 月<br>
   **计算机科学与技术，工学学士**<br>
   卓越工程师教育培养计划<br>
-  **综合测评排名：**前 12.7%（24/189）
+  **综合测评排名：**前 12.7%（24/189） [\[证明材料\]]({{ '/assets/evidence/Evidence_Comprehensive_Evaluation_Rank.pdf' | relative_url }})
 
 </div>
 
@@ -110,36 +110,36 @@ skills_mindmap: true
 
 ### 在审稿件
 
-- **T. Fu**<sup>*</sup> 等，QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning. *2027 IEEE International Conference on Acoustics, Speech and Signal Processing（ICASSP 2027）。* **审稿中。**
+- **T. Fu**<sup>&#42;</sup> 等，QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning. *2027 IEEE International Conference on Acoustics, Speech and Signal Processing（ICASSP 2027）。* **审稿中。**
 
 ### 已录用论文
 
-- Q. Huang<sup>*</sup>, H. Lin<sup>*</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>，CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning. *2026 Chinese Conference on Pattern Recognition and Computer Vision（PRCV 2026，主会）。* **已录用。**
+- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>，CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning. *2026 Chinese Conference on Pattern Recognition and Computer Vision（PRCV 2026，主会）。* **已录用。**
 
-<p class="publication-note"><sup>*</sup> 共同第一作者。<sup>†</sup> 通讯作者。</p>
+<p class="publication-note"><sup>&#42;</sup> 共同第一作者。<sup>†</sup> 通讯作者。</p>
 
 ## 荣誉与奖励 {#awards}
 
 - **“卓越工程师教育培养计划”课程合格证书**<br>
-  2024 年 6 月
+  2024 年 6 月 [\[证明材料\]]({{ '/assets/evidence/Evidence_Excellent_Engineer_Program_2024.pdf' | relative_url }})
 
 - **优秀共青团干部**<br>
-  2021 年
+  2021 年 [\[证明材料\]]({{ '/assets/evidence/Evidence_Outstanding_Youth_League_Cadre_2021.pdf' | relative_url }})
 
 - **学业优秀奖**<br>
-  2021 年 4 月
+  2021 年 4 月 [\[证明材料\]]({{ '/assets/evidence/Evidence_Academic_Excellence_Award_2021.pdf' | relative_url }})
 
 - **社会工作奖**<br>
-  2021 年 4 月
+  2021 年 4 月 [\[证明材料\]]({{ '/assets/evidence/Evidence_Social_Work_Award_2021.pdf' | relative_url }})
 
 - **迪普科技产品技术工程师认证**<br>
-  证书有效期至 2026 年 7 月
+  证书有效期至 2026 年 7 月 [\[证明材料\]]({{ '/assets/evidence/Evidence_DPtech_Certification.pdf' | relative_url }})
 
 ## 技术能力 {#skills}
 
 {% include skills-mindmap.html %}
 
-## 学习资料 {#resources}
+## 受启发的文章 {#resources}
 
 {% include learning-resources.html %}
 

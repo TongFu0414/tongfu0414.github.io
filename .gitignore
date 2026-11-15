@@ -27,6 +27,7 @@ Desktop.ini
 
 # Local development files and private profile materials
 local/
+tmp/
 
 # Ignore files created by npm
 node_modules

@@ -105,7 +105,7 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
   Sept. 2020 – Jul. 2024<br>
   **B.Eng. in Computer Science**<br>
   Excellent Engineer Education and Training Program<br>
-  **Comprehensive Evaluation Rank:** Top 12.7% (24/189)
+  **Comprehensive Evaluation Rank:** Top 12.7% (24/189) [\[Evidence\]]({{ '/assets/evidence/Evidence_Comprehensive_Evaluation_Rank.pdf' | relative_url }})
 
 </div>
 
@@ -113,36 +113,36 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
 
 ### Manuscripts Under Review
 
-- **T. Fu**<sup>*</sup> et al., QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning. *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
+- **T. Fu**<sup>&#42;</sup> et al., QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning. *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
 
 ### Accepted Papers
 
-- Q. Huang<sup>*</sup>, H. Lin<sup>*</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning. *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
+- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning. *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
 
-<p class="publication-note"><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding authors.</p>
+<p class="publication-note"><sup>&#42;</sup> Equal contribution. <sup>†</sup> Corresponding authors.</p>
 
 ## Honors and Awards {#awards}
 
 - **Excellent Engineer Education and Training Program — Certificate of Completion**<br>
-  Jun. 2024
+  Jun. 2024 [\[Evidence\]]({{ '/assets/evidence/Evidence_Excellent_Engineer_Program_2024.pdf' | relative_url }})
 
 - **Outstanding Communist Youth League Cadre**<br>
-  2021
+  2021 [\[Evidence\]]({{ '/assets/evidence/Evidence_Outstanding_Youth_League_Cadre_2021.pdf' | relative_url }})
 
 - **Academic Excellence Award**<br>
-  Apr. 2021
+  Apr. 2021 [\[Evidence\]]({{ '/assets/evidence/Evidence_Academic_Excellence_Award_2021.pdf' | relative_url }})
 
 - **Social Work Award**<br>
-  Apr. 2021
+  Apr. 2021 [\[Evidence\]]({{ '/assets/evidence/Evidence_Social_Work_Award_2021.pdf' | relative_url }})
 
 - **DPtech Certified Product Technology Engineer**<br>
-  Certification valid through Jul. 2026
+  Certification valid through Jul. 2026 [\[Evidence\]]({{ '/assets/evidence/Evidence_DPtech_Certification.pdf' | relative_url }})
 
 ## Skills {#skills}
 
 {% include skills-mindmap.html %}
 
-## Learning Resources {#resources}
+## Inspiring Articles {#resources}
 
 {% include learning-resources.html %}
 

@@ -53,6 +53,8 @@ def verify():
         text = path.read_text(encoding="utf-8")
         if forbidden.search(text):
             problems.append(f"Inherited identity or private content: {path.relative_to(SITE)}")
+        if re.search(r"&lt;/?(?:sup|strong|em)\b", text, re.IGNORECASE):
+            problems.append(f"Leaked formatting tag: {path.relative_to(SITE)}")
         doc = Document()
         doc.feed(text)
         documents[path.resolve()] = doc
@@ -79,7 +81,7 @@ def verify():
         doc = documents.get((SITE / name).resolve())
         if not doc or doc.h1_count != 1:
             problems.append(f"{name}: missing or repeated main heading")
-    for name in ("local", "docs", "scripts", "AGENTS.md", "Gemfile", "Gemfile.lock", "README.md"):
+    for name in ("local", "tmp", "docs", "scripts", "AGENTS.md", "Gemfile", "Gemfile.lock", "README.md"):
         if (SITE / name).exists():
             problems.append(f"Private or development material published: {name}")
     print(json.dumps({"html_pages": len(documents), "problems": problems}, ensure_ascii=False))

@@ -14,8 +14,21 @@ The current homepage follows the user-designated CV. Both languages should be up
 | English | The user requests TOEFL Certificate in the language branch. No score, test date, validity, or downloadable certificate has been supplied. |
 | CV | The user-designated application PDF is the canonical CV. `assets/CV_TongFu.pdf` is an unchanged copy for download. Do not generate a separate website CV or replace the user-designated source. Contact links now match its email address. |
 
-Certificate-supported awards are shown without uploading the original certificates. Submission credentials, raw transcripts, and internal work documents are excluded from public assets.
+The user authorizes certificate Evidence links. Public assets use cropped, correctly oriented, redacted and flattened copies; source originals remain private. Submission credentials, raw transcripts, and internal work documents are excluded from public assets. The local materials contain no TOEFL certificate file, so its skills entry has no Evidence link.
+
+## Public evidence copies
+
+| Evidence | Public PDF |
+| --- | --- |
+| Academic Excellence Award, 2021 | `assets/evidence/Evidence_Academic_Excellence_Award_2021.pdf` |
+| Outstanding Youth League Cadre, 2021 | `assets/evidence/Evidence_Outstanding_Youth_League_Cadre_2021.pdf` |
+| Social Work Award, 2021 | `assets/evidence/Evidence_Social_Work_Award_2021.pdf` |
+| Excellent Engineer program coursework completion, 2024 | `assets/evidence/Evidence_Excellent_Engineer_Program_2024.pdf` |
+| DPtech product technology engineer certification | `assets/evidence/Evidence_DPtech_Certification.pdf` |
+| Comprehensive evaluation rank | `assets/evidence/Evidence_Comprehensive_Evaluation_Rank.pdf` |
+
+Names, certificate wording, dates, and issuer signatures/stamps are preserved. Personal identification, student and certificate numbers are removed where present; the public PDFs embed only sanitized flattened images, with no original hidden image or text layer. The rank proof is comprehensive evaluation, not GPA rank. The program certificate is coursework completion, not a degree certificate. DPtech validity remains through July 2026 and is not presented as a current renewal.
 
 Official wordmarks and the university seal are used unchanged; their source URLs are in `_data/experience_logos.yml`. The university's 211 designation is supported by its [official profile](https://www.tyut.edu.cn/xxgk1/xxjj.htm), checked 2026-11-15.
 
-The 27 Foundations resources retain the reference list's titles, links, order, and source metadata. They are shown without category headings or collapsed panels, with two cards per row.
+The 27 Foundations resources retain the reference list's titles, links, order, and source metadata. They are shown under Inspiring Articles / 受启发的文章, without category headings or collapsed panels, with two cards per row.
