@@ -148,5 +148,5 @@ Selected reference resources for the research topics above.
 
 ## CV and Contact {#contact}
 
-[**Download academic CV (PDF)**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
+[**Download academic CV (PDF)**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
 For research discussions or MPhil opportunities starting in Fall 2027, please contact [**futong0414@163.com**](mailto:futong0414@163.com). You can also find me on [**GitHub**](https://github.com/TongFu0414).

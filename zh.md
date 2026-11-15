@@ -145,5 +145,5 @@ skills_mindmap: true
 
 ## CV 与联系方式 {#contact}
 
-[**下载英文学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
+[**下载英文学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
 欢迎就多模态推理或 2027 年秋季 MPhil 机会交流：[**futong0414@163.com**](mailto:futong0414@163.com)。也可以访问我的 [**GitHub**](https://github.com/TongFu0414)。
