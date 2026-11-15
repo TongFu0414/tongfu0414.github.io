@@ -87,16 +87,16 @@ skills_mindmap: true
 <div class="experience-list" markdown="1">
 
 - {% include experience-logos.html organizations="hikvision" %} **[海康威视](https://www.hikvision.com/)**，中国杭州<br>
-  <span class="needs-confirmation">2026 年 6 月至今</span><br>
-  <strong class="needs-confirmation">工业 AI 产品管理工程师</strong><br>
+  2026 年 6 月至今<br>
+  **工业 AI 产品管理工程师**<br>
   方向：工业多模态 AI / 智慧工厂应用<br>
-  <span class="needs-confirmation">围绕视觉检测与生产过程监控，开展产品需求、模型评测标准与人工复核流程相关工作。</span>
+  围绕工业视觉检测与生产过程监控，开展产品需求、模型评测标准与人工复核流程相关工作。
 
-- {% include experience-logos.html organizations="dptech" %} **[迪普科技](https://www.dptech.com/)**，<span class="needs-confirmation">中国杭州</span><br>
-  <span class="needs-confirmation">2024 年 7 月至 2026 年 5 月</span><br>
-  <strong class="needs-confirmation">网络安全产品经理</strong><br>
+- {% include experience-logos.html organizations="dptech" %} **[迪普科技](https://www.dptech.com/)**，中国杭州<br>
+  2024 年 7 月至 2026 年 5 月<br>
+  **网络安全产品经理**<br>
   方向：LLM/RAG 安全应用 / 数据分类<br>
-  <span class="needs-confirmation">与领域专家及算法团队协作，开展产品定义、数据准备、标注流程和评测标准相关工作。</span>
+  与领域专家及算法团队协作，开展产品与数据需求、标注流程和评测标准相关工作。
 
 - {% include experience-logos.html organizations="tyut" %} **[太原理工大学（211）](https://www.tyut.edu.cn/)**，中国山西<br>
   2020 年 9 月至 2024 年 7 月<br>

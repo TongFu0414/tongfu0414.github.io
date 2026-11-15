@@ -90,16 +90,16 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
 <div class="experience-list" markdown="1">
 
 - {% include experience-logos.html organizations="hikvision" %} **[Hikvision](https://www.hikvision.com/en/)**, Hangzhou, China<br>
-  <span class="needs-confirmation">Jun. 2026 – Present</span><br>
-  <strong class="needs-confirmation">Product Management Engineer, Industrial AI</strong><br>
+  Jun. 2026 – Present<br>
+  **Product Management Engineer, Industrial AI**<br>
   Focus: Industrial Multimodal AI / Smart-Factory Applications<br>
-  <span class="needs-confirmation">Product requirements, model-evaluation criteria, and human-review workflows for visual inspection and process monitoring.</span>
+  Product requirements, model-evaluation criteria, and human-review workflows for industrial visual inspection and process monitoring.
 
-- {% include experience-logos.html organizations="dptech" %} **[DPtech](https://www.dptech.com/)**, <span class="needs-confirmation">Hangzhou, China</span><br>
-  <span class="needs-confirmation">Jul. 2024 – May 2026</span><br>
-  <strong class="needs-confirmation">Product Manager, Network Security Products</strong><br>
+- {% include experience-logos.html organizations="dptech" %} **[DPtech](https://www.dptech.com/)**, Hangzhou, China<br>
+  Jul. 2024 – May 2026<br>
+  **Product Manager, Network Security Products**<br>
   Focus: LLM/RAG-Based Security Applications / Data Classification<br>
-  <span class="needs-confirmation">Product definition, data preparation, annotation workflows, and evaluation criteria in collaboration with domain experts and algorithm teams.</span>
+  Product and data requirements, annotation workflows, and evaluation criteria in collaboration with domain experts and algorithm teams.
 
 - {% include experience-logos.html organizations="tyut" %} **[Taiyuan University of Technology (211)](https://english.tyut.edu.cn/)**, Shanxi, China<br>
   Sept. 2020 – Jul. 2024<br>

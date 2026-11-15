@@ -3,7 +3,7 @@
 English: <https://tongfu0414.github.io/><br>
 中文：<https://tongfu0414.github.io/zh/>
 
-A Jekyll academic homepage for Tong Fu (付彤), covering multimodal reasoning, research manuscripts, industry experience, education, and contact information. Red review highlights mark details that require confirmation; they are documented in [the content review list](docs/content-review.md).
+A Jekyll academic homepage for Tong Fu (付彤), covering multimodal reasoning, research manuscripts, industry experience, education, and contact information. It uses the user-designated CV and links redacted public certificate copies. Sources and update constraints are documented in [the source notes](docs/content-review.md).
 
 ## Local development
 
