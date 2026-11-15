@@ -62,8 +62,8 @@ navigation:
 # 如需进一步定制，可编辑 /_includes/author-profile.html
 author:
   # 个人基础信息
-  avatar           : "tong-fu-initials.svg"
-  avatar_review    : true
+  avatar           : "https://avatars.githubusercontent.com/u/356880922?v=4"
+  avatar_review    : false
   name             : "Tong Fu"
   pronouns         : # 示例："she/her"
   bio              : "Multimodal reasoning · Fall 2027 MPhil applicant"
@@ -73,7 +73,7 @@ author:
   employer         :
   employer_zh      :
   uri              : # 网址
-  email            : "futong4024@163.com"
+  email            : "futong0414@163.com"
 
   # 学术网站
   arxiv            : # 网址，更新为你自己的主页链接

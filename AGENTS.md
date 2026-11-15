@@ -5,10 +5,11 @@ This repository is Tong Fu's (付彤) Jekyll/GitHub Pages academic homepage. Its
 ## Content and evidence
 
 - `about.md` is the English homepage at `/`; `zh.md` is its Chinese counterpart at `/zh/`. Keep their facts, publication states, and review items aligned.
-- `_config.yml` controls identity, navigation, contact links, and site metadata. The GitHub account is `TongFu0414`; the contact email is `futong4024@163.com`.
+- `_config.yml` controls identity, navigation, contact links, and site metadata. The GitHub account is `TongFu0414`; the contact email is `futong0414@163.com`, matching the current user-designated CV.
+- The user's application PDF is the sole canonical CV. The public `assets/CV_TongFu.pdf` must be an unchanged copy of it; do not create an alternative website CV. Use TongFu0414's GitHub avatar and retain the original theme's avatar treatment.
 - Tong Fu studied Computer Science and Technology at Taiyuan University of Technology, 2020–2024. Do not describe an application target as a current affiliation.
 - QCVS: first author; submitted to ICASSP 2027. CFMS: third author; accepted at PRCV 2026 Main Track. Do not upgrade submission to acceptance or acceptance to publication without evidence.
-- Individual paper contributions, final citations, current review status, employment roles and dates, degree title, tools, language scores, and a personal photo need confirmation. Mark uncertain details with `.needs-confirmation`; skills nodes use `needs_confirmation: true`. Explain the uncertainty in text as well as color.
+- Individual paper contributions, final citations, current review status, employment roles and dates, degree title, tools, and language scores need confirmation where the current CV or evidence still marks them for review. Mark uncertain details with `.needs-confirmation`; skills nodes use `needs_confirmation: true`. The user requested removal of the introductory explanation of red highlighting and the QCVS author/status/link reminder; do not restore those notices.
 - Do not infer personal engineering contributions from company product descriptions. Keep submission passwords, full transcripts, student/government identifiers, internal material, and unapproved full manuscript files out of the public repository.
 - There is no GitHub Activity widget or automatic contribution-chart workflow. Retain only the GitHub profile link.
 - The user explicitly requested a fresh independent repository. Do not reattach upstream history or add an upstream remote. Retain the applicable theme/library license notices.

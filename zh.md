@@ -21,9 +21,7 @@ skills_mindmap: true
 我于 2020–2024 年在[太原理工大学](https://www.tyut.edu.cn/)学习**计算机科学与技术**，研究兴趣包括**多模态推理**、**视觉语言模型**与**可靠人工智能**。
 
 我的研究涉及问题对比视觉引导与粗到细的表格推理。我关注模型如何使用视觉证据、何时应在推理阶段进行干预，以及怎样通过评测同时识别性能提升和失败情况。<br>
-我正在寻求 **2027 年秋季入学的 MPhil 机会**，欢迎通过[邮箱](mailto:futong4024@163.com)交流。
-
-<p class="review-note"><span class="needs-confirmation">红色高亮表示需要本人确认的信息，或仍需补充的资料。</span></p>
+我正在寻求 **2027 年秋季入学的 MPhil 机会**，欢迎通过[邮箱](mailto:futong0414@163.com)交流。
 
 ## 研究兴趣 {#research-interest}
 
@@ -57,7 +55,6 @@ skills_mindmap: true
         <p class="needs-confirmation"><strong>本人具体贡献：</strong>方法设计、代码实现、实验和论文写作的分工待本人确认。</p>
       </div>
     </details>
-    <p class="project-card__source"><a href="#publications">论文信息</a> · <span class="needs-confirmation">最新审稿状态、最终作者列表以及公开论文、代码链接待确认。</span></p>
   </article>
 
   <article class="project-card">
@@ -112,7 +109,6 @@ skills_mindmap: true
 ### 已投稿稿件
 
 - **Tong Fu** 等. **QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning.** 已投稿 ICASSP 2027，投稿确认日期为 2026 年 9 月 14 日。<br>
-  <span class="needs-confirmation">最终完整作者列表、单位、最新审稿状态及公开稿件链接待确认。</span>
 
 ### 已录用论文
 
@@ -149,6 +145,5 @@ skills_mindmap: true
 
 ## CV 与联系方式 {#contact}
 
-[**下载英文学术 CV（草稿，PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
-<span class="needs-confirmation">此稿依据现有材料整理，红色文字表示仍待本人确认的内容。</span><br>
-欢迎就多模态推理或 2027 年秋季 MPhil 机会交流：[**futong4024@163.com**](mailto:futong4024@163.com)。也可以访问我的 [**GitHub**](https://github.com/TongFu0414)。
+[**下载英文学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
+欢迎就多模态推理或 2027 年秋季 MPhil 机会交流：[**futong0414@163.com**](mailto:futong0414@163.com)。也可以访问我的 [**GitHub**](https://github.com/TongFu0414)。

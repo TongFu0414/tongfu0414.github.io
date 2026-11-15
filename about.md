@@ -24,9 +24,7 @@ Nice to meet you here!<br>
 I studied **Computer Science and Technology** at [Taiyuan University of Technology](https://english.tyut.edu.cn/) from 2020 to 2024. My research interests lie in **multimodal reasoning**, **vision-language models**, and **reliable AI**.
 
 My research includes question-contrastive visual steering and coarse-to-fine tabular reasoning. I am interested in how models use visual evidence, when inference-time interventions help, and how evaluation can reveal both improvements and failure cases.<br>
-I am seeking **MPhil opportunities starting in Fall 2027**. Please feel free to [contact me](mailto:futong4024@163.com).
-
-<p class="review-note"><span class="needs-confirmation">Red highlights identify details awaiting my confirmation or materials to be added.</span></p>
+I am seeking **MPhil opportunities starting in Fall 2027**. Please feel free to [contact me](mailto:futong0414@163.com).
 
 ## Research Interests {#research-interest}
 
@@ -60,7 +58,6 @@ I am seeking **MPhil opportunities starting in Fall 2027**. Please feel free to 
         <p class="needs-confirmation"><strong>My specific contributions:</strong> Please confirm the division of method design, implementation, experiments, and writing.</p>
       </div>
     </details>
-    <p class="project-card__source"><a href="#publications">Publication details</a> · <span class="needs-confirmation">Latest review status, final author list, and public paper/code links to confirm.</span></p>
   </article>
 
   <article class="project-card">
@@ -115,7 +112,6 @@ I am seeking **MPhil opportunities starting in Fall 2027**. Please feel free to 
 ### Submitted Manuscript
 
 - **Tong Fu** et al. **QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning.** Submitted to ICASSP 2027; submission confirmed on Sept. 14, 2026.<br>
-  <span class="needs-confirmation">Complete final author list, affiliation, latest review status, and a public manuscript link to confirm.</span>
 
 ### Accepted Paper
 
@@ -152,6 +148,5 @@ Selected reference resources for the research topics above.
 
 ## CV and Contact {#contact}
 
-[**Download academic CV (draft, PDF)**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
-<span class="needs-confirmation">This draft uses the evidence currently available. Red text marks details awaiting confirmation.</span><br>
-For research discussions or MPhil opportunities starting in Fall 2027, please contact [**futong4024@163.com**](mailto:futong4024@163.com). You can also find me on [**GitHub**](https://github.com/TongFu0414).
+[**Download academic CV (PDF)**]({{ '/assets/CV_TongFu.pdf' | relative_url }})<br>
+For research discussions or MPhil opportunities starting in Fall 2027, please contact [**futong0414@163.com**](mailto:futong0414@163.com). You can also find me on [**GitHub**](https://github.com/TongFu0414).
