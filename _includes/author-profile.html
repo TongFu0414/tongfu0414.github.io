@@ -7,6 +7,9 @@
 {% assign profile_contact_label = "Contact" %}
 {% assign profile_website_label = "Website" %}
 {% assign profile_email_label = "Email" %}
+{% assign profile_wechat_label = "WeChat" %}
+{% assign profile_wechat_id_label = "WeChat ID" %}
+{% assign profile_wechat_close_label = "Close WeChat" %}
 {% if page.lang == "zh-CN" %}
   {% assign profile_bio = author.bio_zh | default: author.bio %}
   {% assign profile_location = author.location_zh | default: author.location %}
@@ -14,6 +17,9 @@
   {% assign profile_contact_label = "联系方式" %}
   {% assign profile_website_label = "个人主页" %}
   {% assign profile_email_label = "邮箱" %}
+  {% assign profile_wechat_label = "微信" %}
+  {% assign profile_wechat_id_label = "微信号" %}
+  {% assign profile_wechat_close_label = "关闭微信" %}
 {% endif %}
 
 <div class="author-profile" itemscope itemtype="http://schema.org/Person">
@@ -171,7 +177,20 @@
       {% endif %}
 
 
+      {% if author.wechat and author.wechat_id %}
+        <li><a href="#wechat-modal" data-dialog-open="wechat-modal" aria-controls="wechat-modal" aria-haspopup="dialog"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>{{ profile_wechat_label }}</a></li>
+      {% endif %}
     </ul>
   </div>
 
 </div>
+
+{% if author.wechat and author.wechat_id %}
+<dialog id="wechat-modal" class="wechat-modal" aria-labelledby="wechat-dialog-title">
+  <button class="wechat-modal__close dialog-close" type="button" aria-label="{{ profile_wechat_close_label }}" data-dialog-close autofocus>&times;</button>
+  <div class="wechat-modal__account">
+    <h2 id="wechat-dialog-title">{{ profile_wechat_id_label }}</h2>
+    <p class="wechat-modal__id">{{ author.wechat_id | escape }}</p>
+  </div>
+</dialog>
+{% endif %}

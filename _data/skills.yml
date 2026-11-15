@@ -1,35 +1,44 @@
 id: skills
-en: "Research and Technical Profile"
-zh: "研究与技术方向"
+en: "Technical Skills"
+zh: "技术能力"
 children:
   - id: llm
-    en: "Multimodal AI"
-    zh: "多模态人工智能"
+    en: "Large Language Models"
+    zh: "大语言模型"
     children:
+      - id: model_foundations
+        en: "Model Foundations"
+        zh: "模型基础"
+        children:
+          - id: transformers
+            en: "Transformers and Attention"
+            zh: "Transformer 与注意力机制"
+          - id: representations
+            en: "Tokenization and Embeddings"
+            zh: "分词与向量表示"
       - id: vision_language
-        en: "Vision-Language Models"
-        zh: "视觉语言模型"
+        en: "Multimodal Models"
+        zh: "多模态模型"
         children:
           - id: visual_reasoning
-            en: "Visual Reasoning"
-            zh: "视觉推理"
+            en: "Vision-Language Reasoning"
+            zh: "视觉语言推理"
           - id: activation_steering
-            en: "Inference-Time Steering"
-            zh: "推理时引导"
-      - id: tabular
-        en: "Tabular Reasoning"
-        zh: "表格推理"
+            en: "Activation Steering"
+            zh: "激活引导"
+      - id: inference
+        en: "LLM Inference"
+        zh: "大模型推理"
         children:
-          - id: table_qa
-            en: "Table Question Answering"
-            zh: "表格问答"
-          - id: fact_verification
-            en: "Fact Verification"
-            zh: "事实验证"
+          - id: prompting
+            en: "Prompt Engineering"
+            zh: "提示词设计"
+          - id: structured_outputs
+            en: "Structured Outputs"
+            zh: "结构化输出"
   - id: research
-    en: "Research Practice"
-    zh: "科研实践"
-    needs_confirmation: true
+    en: "Model Evaluation"
+    zh: "模型评测"
     children:
       - id: evaluation
         en: "Benchmark Evaluation"
@@ -41,26 +50,28 @@ children:
         en: "Failure Analysis"
         zh: "失败分析"
       - id: writing
-        en: "Scientific Writing"
-        zh: "学术写作"
+        en: "Evaluation Metrics"
+        zh: "评测指标设计"
   - id: engineering
-    en: "Industry Applications"
-    zh: "产业应用"
-    needs_confirmation: true
+    en: "LLM Applications"
+    zh: "大模型应用"
     children:
       - id: security
-        en: "Security Applications"
-        zh: "安全应用"
+        en: "Retrieval and Data"
+        zh: "检索与数据"
         children:
           - id: rag
-            en: "LLM and RAG Workflows"
-            zh: "LLM 与 RAG 流程"
+            en: "RAG Workflows"
+            zh: "RAG 应用流程"
           - id: data_classification
             en: "Data Classification"
             zh: "数据分类"
+          - id: tabular
+            en: "Tabular Reasoning"
+            zh: "表格推理"
       - id: industrial_ai
-        en: "Industrial AI"
-        zh: "工业人工智能"
+        en: "Industrial AI Workflows"
+        zh: "工业 AI 流程"
         children:
           - id: visual_inspection
             en: "Visual Inspection"
@@ -69,25 +80,40 @@ children:
             en: "Human-in-the-Loop Evaluation"
             zh: "人工复核评测"
   - id: languages
-    en: "Languages"
-    zh: "语言"
+    en: "English Qualification"
+    zh: "英语证书"
     children:
       - id: english
-        en: "English Test Results"
-        zh: "英语考试成绩"
-        needs_confirmation: true
+        en: "TOEFL Certificate"
+        zh: "托福证书"
   - id: other
     en: "Tools"
     zh: "工具"
     kind: tool
-    needs_confirmation: true
     children:
       - id: programming
-        en: "Programming Stack"
-        zh: "编程技术栈"
+        en: "Python"
+        zh: "Python"
       - id: training_frameworks
-        en: "Model and Evaluation Frameworks"
-        zh: "模型与评测框架"
+        en: "Modeling Frameworks"
+        zh: "模型框架"
+        children:
+          - id: pytorch
+            en: "PyTorch"
+            zh: "PyTorch"
+          - id: huggingface
+            en: "Hugging Face Transformers"
+            zh: "Hugging Face Transformers"
       - id: development
-        en: "Development Environment"
-        zh: "开发环境"
+        en: "Development and Writing"
+        zh: "开发与写作"
+        children:
+          - id: linux
+            en: "Linux"
+            zh: "Linux"
+          - id: git
+            en: "Git"
+            zh: "Git"
+          - id: latex
+            en: "LaTeX"
+            zh: "LaTeX"

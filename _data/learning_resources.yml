@@ -1,25 +1,109 @@
-groups:
-  - id: models
-    title_en: "Multimodal Models"
-    title_zh: "多模态模型"
-    items:
-      - title: "Qwen — Official Model Repository"
-        url: "https://github.com/QwenLM/Qwen3.8"
-        type: "Models and code"
-        source: "Qwen Team"
-      - title: "DeepSeek-VL2"
-        url: "https://github.com/deepseek-ai/DeepSeek-VL2"
-        type: "Models and code"
-        source: "DeepSeek AI"
-  - id: benchmarks
-    title_en: "Tabular Reasoning Benchmarks"
-    title_zh: "表格推理基准"
-    items:
-      - title: "WikiTableQuestions"
-        url: "https://github.com/ppasupat/WikiTableQuestions"
-        type: "Dataset"
-        source: "Original project repository"
-      - title: "TabFact"
-        url: "https://github.com/wenhuchen/Table-Fact-Checking"
-        type: "Dataset and code"
-        source: "Original project repository"
+items:
+- title: CS336：从零构建大语言模型
+  url: https://www.bilibili.com/video/BV1APuUz7Erx/
+  type: Course
+  source: 斯坦福 · 哔哩哔哩
+- title: CS336 学习笔记
+  url: https://www.zhihu.com/column/c_1944054467675817567
+  type: Notes
+  source: 知乎专栏
+- title: 动手学深度学习 Dive into Deep Learning
+  url: https://zh.d2l.ai/
+  type: Book
+  source: 李沐 · 在线书 + 代码
+- title: 图解 Transformer
+  url: https://jalammar.github.io/illustrated-transformer/
+  type: Article
+  source: Jay Alammar
+- title: 图解注意力机制与 Seq2Seq
+  url: https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+  type: Article
+  source: Jay Alammar
+- title: The Annotated Transformer
+  url: https://nlp.seas.harvard.edu/2018/04/03/attention.html
+  type: Code
+  source: Harvard NLP · 逐行代码注解
+- title: DDA5001 机器学习课程笔记
+  url: https://heycys.github.io/cuhksz-ml-notes/
+  type: Notes
+  source: 香港中文大学（深圳）
+- title: 图解量化 A Visual Guide to Quantization
+  url: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization
+  type: Article
+  source: Maarten Grootendorst
+- title: MoE 综述：混合专家与大模型扩展
+  url: https://mp.weixin.qq.com/s/K5TGQysyXGFcqzxY66IY2A?scene=1
+  type: Survey
+  source: IEEE TKDE · 微信公众号
+- title: Qwen 技术报告解读
+  url: https://zhuanlan.zhihu.com/p/671110914
+  type: Report
+  source: 知乎
+- title: LeetCode 热题 100
+  url: https://leetcode.cn/studyplan/top-100-liked/
+  type: Practice
+  source: 算法基础训练
+- title: ARIS-in-AI-Offer：AI Offer 教程清单
+  url: https://github.com/wanshuiyin/ARIS-in-AI-Offer/blob/main/README_CN.md#-%E6%95%99%E7%A8%8B%E6%B8%85%E5%8D%95
+  type: Guide
+  source: GitHub · wanshuiyin
+- title: Kimi K3：Open Frontier Intelligence
+  url: https://www.kimi.com/blog/kimi-k3
+  type: Report
+  source: Moonshot AI · 官方技术博客
+- title: Linux Commands Cheat Sheet
+  url: https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet
+  type: Cheat Sheet
+  source: Red Hat Developer · 命令行速查
+- title: ICLR 2027 Conference
+  url: https://iclr.cc/
+  type: Conference
+  source: ICLR · 官方网站
+- title: ICLR 2027 投稿指南
+  url: https://zhuanlan.zhihu.com/p/2073117052592828952
+  type: Guide
+  source: 知乎 · 截稿日期与投稿新规
+- title: ELF：嵌入式语言流
+  url: https://zhuanlan.zhihu.com/p/2038272517492695911
+  type: Article
+  source: 知乎 · 模型架构解读
+- title: Kimi K3 技术报告详解
+  url: https://zhuanlan.zhihu.com/p/2065723673437267072
+  type: Article
+  source: 知乎 · 技术报告解读
+- title: T5：Text-to-Text Transformer 模型详解
+  url: https://blog.csdn.net/hy592070616/article/details/131362321
+  type: Article
+  source: CSDN · hy592070616
+- title: 基础算法精讲
+  url: https://www.bilibili.com/video/BV1KG4y1G7cu/
+  type: Course
+  source: 哔哩哔哩 · 算法课程
+- title: LeetCode 探险：数据结构与算法
+  url: https://leetcode.cn/quest/data-structures-and-algorithms-quest/
+  type: Practice
+  source: 力扣 · 学习路径
+- title: 如何科学刷题
+  url: https://leetcode.cn/discuss/post/3141566/ru-he-ke-xue-shua-ti-by-endlesscheng-q3yd/
+  type: Guide
+  source: 灵茶山艾府 · 力扣
+- title: 算法题单：滑动窗口与双指针
+  url: https://leetcode.cn/discuss/post/3578981/ti-dan-hua-dong-chuang-kou-ding-chang-bu-rzz7/
+  type: Practice
+  source: 灵茶山艾府 · 力扣
+- title: Stable-DiffCoder：开源代码扩散语言模型
+  url: https://github.com/ByteDance-Seed/Stable-DiffCoder
+  type: Code
+  source: ByteDance Seed · GitHub
+- title: Stable-DiffCoder：代码扩散语言模型论文
+  url: https://arxiv.org/abs/2601.15892
+  type: Paper
+  source: ByteDance Seed · arXiv
+- title: LiveBench：大语言模型评测
+  url: https://livebench.ai/
+  type: Benchmark
+  source: LiveBench · 官方榜单
+- title: CodeTop：算法面试题目整理
+  url: https://codetop.cc/home
+  type: Practice
+  source: CodeTop · 题库

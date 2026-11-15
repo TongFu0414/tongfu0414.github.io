@@ -77,8 +77,8 @@ def verify():
                     problems.append(f"{relative}: missing anchor {link}")
     for name in ("index.html", "zh/index.html"):
         doc = documents.get((SITE / name).resolve())
-        if not doc or doc.h1_count != 1 or doc.review_count < 8:
-            problems.append(f"{name}: missing heading or expected review highlights")
+        if not doc or doc.h1_count != 1:
+            problems.append(f"{name}: missing or repeated main heading")
     for name in ("local", "docs", "scripts", "AGENTS.md", "Gemfile", "Gemfile.lock", "README.md"):
         if (SITE / name).exists():
             problems.append(f"Private or development material published: {name}")

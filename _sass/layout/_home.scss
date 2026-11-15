@@ -632,19 +632,12 @@ html[data-theme="dark"] .page__content .skills-mindmap {
 
 .page__content .learning-resource-list {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.8rem;
   margin: 0 0 0.75rem;
   padding: 0;
   list-style: none;
 
-  @include breakpoint($small) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  @include breakpoint($x-large) {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
 }
 
 .page__content .learning-resource {
@@ -679,6 +672,7 @@ html[data-theme="dark"] .page__content .skills-mindmap {
 .learning-resource__title {
   font-size: 0.9rem;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .learning-resource__meta {

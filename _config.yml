@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Tong Fu"
 title_separator          : "-"
 name                     : &name "Tong Fu"
-description              : &description "Tong Fu: multimodal reasoning, vision-language models, and reliable AI."
+description              : &description "Tong Fu, a Taiyuan University of Technology graduate seeking MPhil opportunities for Fall 2027."
 url                      : https://tongfu0414.github.io # Personal academic homepage
 baseurl                  : "" # 站点子路径，例如 "/blog"
 repository               : "TongFu0414/tongfu0414.github.io"
@@ -62,14 +62,14 @@ navigation:
 # 如需进一步定制，可编辑 /_includes/author-profile.html
 author:
   # 个人基础信息
-  avatar           : "https://avatars.githubusercontent.com/u/356880922?v=4"
+  avatar           : "me.jpg"
   avatar_review    : false
   name             : "Tong Fu"
   pronouns         : # 示例："she/her"
-  bio              : "Multimodal reasoning · Fall 2027 MPhil applicant"
-  bio_zh           : "多模态推理 · 2027 秋季 MPhil 申请"
-  location         :
-  location_zh      :
+  bio              : "Taiyuan University of Technology (211)<br>Seeking MPhil opportunities for Fall 2027"
+  bio_zh           : "太原理工大学（211）<br>正在寻找 2027 年秋季 MPhil 机会"
+  location         : "Hangzhou, China"
+  location_zh      : "中国·杭州"
   employer         :
   employer_zh      :
   uri              : # 网址
@@ -118,7 +118,8 @@ author:
   xing             : # 用户名
   youtube          : # 用户名
   zhihu            : # 用户名
-  wechat           : false
+  wechat           : true
+  wechat_id        : "Ft_Be_admitted_to"
 
 # 站点设置
 teaser                   :

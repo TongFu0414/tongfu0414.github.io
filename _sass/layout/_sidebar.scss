@@ -257,3 +257,19 @@
   top: 0.4rem;
   right: 0.4rem;
 }
+
+.wechat-modal__account {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+
+  h2 { margin: 0 0 0.75rem; }
+}
+
+.wechat-modal__id {
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-family: $monospace;
+  font-size: 1.1rem;
+  user-select: all;
+}

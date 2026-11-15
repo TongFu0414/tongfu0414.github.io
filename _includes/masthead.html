@@ -17,9 +17,14 @@
 <header class="masthead">
   <div class="masthead__inner-wrap">
     <nav id="site-nav" class="site-nav" aria-label="{{ navigation_label }}">
-      <a class="masthead__logo-link" href="{{ '/' | relative_url }}" aria-label="Tong Fu home">
-        <img class="masthead__logo" src="{{ '/images/tong-fu-wordmark.svg' | relative_url }}" alt="Tong Fu" width="1803" height="176" style="width: clamp(20rem, 30vw, 28rem); height: auto;">
-      </a>
+      <div class="masthead__logo-link masthead__brands">
+        <a class="masthead__brand" href="https://www.tyut.edu.cn/" aria-label="{% if page.lang == 'zh-CN' %}太原理工大学（211）{% else %}Taiyuan University of Technology (211){% endif %}">
+          <img src="{{ site.data.experience_logos.tyut_wordmark.image | relative_url }}" alt="{% if page.lang == 'zh-CN' %}太原理工大学（211）{% else %}Taiyuan University of Technology (211){% endif %}" width="655" height="170" decoding="async">
+        </a>
+        <a class="masthead__brand masthead__brand--hikvision" href="https://www.hikvision.com/" aria-label="{% if page.lang == 'zh-CN' %}海康威视{% else %}Hikvision{% endif %}">
+          <img src="{{ site.data.experience_logos.hikvision.image | relative_url }}" alt="{% if page.lang == 'zh-CN' %}海康威视{% else %}Hikvision{% endif %}" width="221" height="28" decoding="async">
+        </a>
+      </div>
       <ul id="site-nav-links" class="site-nav__links">
         {% for link in masthead_navigation %}
           {% if link.url contains 'http' %}

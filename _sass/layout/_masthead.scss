@@ -58,6 +58,40 @@
   height: auto;
 }
 
+/* Two official wordmarks share the reference header's original footprint. */
+.masthead__brands {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  aspect-ratio: 1803 / 176;
+  height: clamp(1.95rem, 2.93vw, 2.74rem);
+  min-height: 0;
+  padding: 0 0.35rem;
+}
+
+.masthead__brand {
+  display: flex;
+  flex: 1.25;
+  align-items: center;
+  min-width: 0;
+  height: 100%;
+
+  img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+
+.masthead__brand--hikvision {
+  flex: 1;
+
+  img { width: 100%; }
+}
+
 .site-nav__links {
   grid-column: 1 / -1;
   display: flex;

@@ -1,2 +1,13 @@
-# No institutional affiliation is inferred from a logo.
-{}
+# Unmodified official artwork. Retrieved 2026-11-15.
+tyut:
+  image: /images/organizations/tyut-seal.jpg
+  source: https://www.tyut.edu.cn/__local/3/CE/C1/B23BD5E11CC416EDD7AB78C50DA_3DE5AEBE_54AB3.jpg
+tyut_wordmark:
+  image: /images/organizations/tyut-wordmark.svg
+  source: https://english.tyut.edu.cn/images/logom.svg
+hikvision:
+  image: /images/organizations/hikvision.svg
+  source: https://www.hikvision.com/cep/resource/resources/icons/Hikvision-Logo-R.svg
+dptech:
+  image: /images/organizations/dptech.jpg
+  source: https://www.dptech.com/fer/upimg/logo.jpg
