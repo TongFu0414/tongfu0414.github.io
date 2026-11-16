@@ -7,6 +7,7 @@
 {% assign profile_contact_label = "Contact" %}
 {% assign profile_website_label = "Website" %}
 {% assign profile_email_label = "Email" %}
+{% assign profile_email_close_label = "Close email" %}
 {% assign profile_wechat_label = "WeChat" %}
 {% assign profile_wechat_id_label = "WeChat ID" %}
 {% assign profile_wechat_close_label = "Close WeChat" %}
@@ -17,6 +18,7 @@
   {% assign profile_contact_label = "联系方式" %}
   {% assign profile_website_label = "个人主页" %}
   {% assign profile_email_label = "邮箱" %}
+  {% assign profile_email_close_label = "关闭邮箱" %}
   {% assign profile_wechat_label = "微信" %}
   {% assign profile_wechat_id_label = "微信号" %}
   {% assign profile_wechat_close_label = "关闭微信" %}
@@ -191,6 +193,16 @@
   <div class="wechat-modal__account">
     <h2 id="wechat-dialog-title">{{ profile_wechat_id_label }}</h2>
     <p class="wechat-modal__id">{{ author.wechat_id | escape }}</p>
+  </div>
+</dialog>
+{% endif %}
+
+{% if author.email %}
+<dialog id="email-modal" class="wechat-modal" aria-labelledby="email-dialog-title">
+  <button class="wechat-modal__close dialog-close" type="button" aria-label="{{ profile_email_close_label }}" data-dialog-close autofocus>&times;</button>
+  <div class="wechat-modal__account">
+    <h2 id="email-dialog-title">{{ profile_email_label }}</h2>
+    <p class="wechat-modal__id"><a href="mailto:{{ author.email | escape }}">{{ author.email | escape }}</a></p>
   </div>
 </dialog>
 {% endif %}
