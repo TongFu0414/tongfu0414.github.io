@@ -148,6 +148,6 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
 
 ## Contact {#contact}
 
-[**Academic CV (PDF)**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
+Academic CV：[**Tong Fu (付彤)**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
 Email: [**futong0414@163.com**](mailto:futong0414@163.com)<br>
 WeChat：Ft_Be_admitted_to

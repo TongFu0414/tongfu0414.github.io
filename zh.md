@@ -145,6 +145,6 @@ skills_mindmap: true
 
 ## 联系方式 {#contact}
 
-[**学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
+学术 CV：[**Tong Fu (付彤)**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
 邮箱：[**futong0414@163.com**](mailto:futong0414@163.com)<br>
 微信：Ft_Be_admitted_to
