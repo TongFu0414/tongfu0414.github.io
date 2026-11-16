@@ -276,6 +276,19 @@
     else window.addEventListener('resize', updateTableFocus);
   });
 
+  // Header/menu setup can shift a figure after the browser's initial fragment jump.
+  function alignProjectFigure() {
+    requestAnimationFrame(() => {
+      const figure = document.querySelector('.project-media:target');
+      if (!figure) return;
+      measureMasthead();
+      figure.scrollIntoView({ behavior: 'instant', block: 'start' });
+    });
+  }
+  window.addEventListener('load', alignProjectFigure);
+  window.addEventListener('hashchange', alignProjectFigure);
+  alignProjectFigure();
+
   // Preserve existing video fitting and non-project image previews.
   if (window.fitvids) window.fitvids();
   if (window.jQuery && window.jQuery.fn.magnificPopup) {
