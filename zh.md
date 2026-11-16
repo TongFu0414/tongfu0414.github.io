@@ -143,7 +143,8 @@ skills_mindmap: true
 
 {% include learning-resources.html %}
 
-## CV 与联系方式 {#contact}
+## 联系方式 {#contact}
 
-[**下载英文学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
-邮箱：[**futong0414@163.com**](mailto:futong0414@163.com) · [**GitHub**](https://github.com/TongFu0414)
+[**学术 CV（PDF）**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
+邮箱：[**futong0414@163.com**](mailto:futong0414@163.com)<br>
+微信：Ft_Be_admitted_to
