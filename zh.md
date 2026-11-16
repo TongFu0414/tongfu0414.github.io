@@ -39,7 +39,7 @@ skills_mindmap: true
       <p class="project-card__meta">ICASSP 2027 · 审稿中</p>
     </header>
     <p class="project-card__summary">面向视觉数学推理的免训练推理时方法，在 Qwen3.5 2B–9B 三档模型上将 DynaMath 准确率提升 <strong>1.76–2.52 个百分点</strong>，仅对 <strong>22%–30% 的输入</strong>施加干预。</p>
-    <figure class="project-media project-media--wide">
+    <figure id="qcvs-overview" class="project-media project-media--wide">
       <a href="{{ '/assets/research/qcvs-overview.png' | relative_url }}">
         <img src="{{ '/assets/research/qcvs-overview.png' | relative_url }}" width="1527" height="948" loading="lazy" decoding="async" alt="QCVS 方法概览：匹配视觉控制与任务、参考提示的差分构造干预方向，经门控后进行单次有界干预">
       </a>
@@ -66,7 +66,7 @@ skills_mindmap: true
       <p class="project-card__meta">PRCV 2026 主会 · 已录用</p>
     </header>
     <p class="project-card__summary">将多模态知识综合与迭代表格操作结合的两阶段框架。在 GPT-4 / GPT-4V 粗粒度阶段辅助下，使用 GPT-3.5 规划器，达到 <strong>81.37% 的 TabFact 准确率</strong>和 <strong>61.42% 的 WikiTQ 答案准确率</strong>。</p>
-    <figure class="project-media project-media--wide">
+    <figure id="cfms-overview" class="project-media project-media--wide">
       <a href="{{ '/assets/research/cfms-overview.png' | relative_url }}">
         <img src="{{ '/assets/research/cfms-overview.png' | relative_url }}" width="1400" height="760" loading="lazy" decoding="async" alt="CFMS 框架：粗粒度的视觉、语义和统计描述，引导细粒度表格操作与答案生成">
       </a>
@@ -117,11 +117,11 @@ skills_mindmap: true
 
 ### 在审稿件
 
-- **T. Fu**<sup>&#42;</sup> 等，[QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/QCVS.pdf)。*2027 IEEE International Conference on Acoustics, Speech and Signal Processing（ICASSP 2027）。* **审稿中。**
+- **T. Fu**<sup>&#42;</sup> 等，[QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning](#qcvs-overview)。*2027 IEEE International Conference on Acoustics, Speech and Signal Processing（ICASSP 2027）。* **审稿中。**
 
 ### 已录用论文
 
-- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>，[CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/CFMS.pdf)。*2026 Chinese Conference on Pattern Recognition and Computer Vision（PRCV 2026，主会）。* **已录用。**
+- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>，[CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning](#cfms-overview)。*2026 Chinese Conference on Pattern Recognition and Computer Vision（PRCV 2026，主会）。* **已录用。**
 
 <p class="publication-note"><sup>&#42;</sup> 共同第一作者。<sup>†</sup> 通讯作者。</p>
 

@@ -42,7 +42,7 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
       <p class="project-card__meta">ICASSP 2027 · Under review</p>
     </header>
     <p class="project-card__summary">A training-free inference method for visual mathematical reasoning, improving DynaMath accuracy by <strong>1.76–2.52 percentage points</strong> across Qwen3.5 2B–9B while intervening on only <strong>22%–30% of inputs</strong>.</p>
-    <figure class="project-media project-media--wide">
+    <figure id="qcvs-overview" class="project-media project-media--wide">
       <a href="{{ '/assets/research/qcvs-overview.png' | relative_url }}">
         <img src="{{ '/assets/research/qcvs-overview.png' | relative_url }}" width="1527" height="948" loading="lazy" decoding="async" alt="QCVS overview: matched visual controls and task-reference contrasts produce a direction; a gate selects a single bounded intervention">
       </a>
@@ -69,7 +69,7 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
       <p class="project-card__meta">PRCV 2026 (Main Track) · Accepted</p>
     </header>
     <p class="project-card__summary">A two-stage framework combining multimodal knowledge synthesis with iterative table operations. With GPT-4/GPT-4V coarse-stage assistance and a GPT-3.5 planner, it achieves <strong>81.37% TabFact accuracy</strong> and <strong>61.42% WikiTQ denotation accuracy</strong>.</p>
-    <figure class="project-media project-media--wide">
+    <figure id="cfms-overview" class="project-media project-media--wide">
       <a href="{{ '/assets/research/cfms-overview.png' | relative_url }}">
         <img src="{{ '/assets/research/cfms-overview.png' | relative_url }}" width="1400" height="760" loading="lazy" decoding="async" alt="CFMS overview: coarse visual, semantic, and statistical descriptions guide fine-grained table operations">
       </a>
@@ -120,11 +120,11 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
 
 ### Manuscripts Under Review
 
-- **T. Fu**<sup>&#42;</sup> et al., [QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/QCVS.pdf). *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
+- **T. Fu**<sup>&#42;</sup> et al., [QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning](#qcvs-overview). *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
 
 ### Accepted Papers
 
-- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, [CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/CFMS.pdf). *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
+- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, [CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning](#cfms-overview). *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
 
 <p class="publication-note"><sup>&#42;</sup> Equal contribution. <sup>†</sup> Corresponding authors.</p>
 

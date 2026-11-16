@@ -35,7 +35,7 @@ The 27 Foundations resources retain the reference list's titles, links, order, a
 
 ## Research detail provenance — 2026-11-16
 
-The expanded English and Chinese project descriptions follow the reference homepage's background, technical modules and core-results structure, checked at `https://ryannnice.github.io/` on 2026-11-16. Technical content and numbers come from the supplied local manuscripts, not the reference author's projects. They describe the research methods and reported results without assigning unconfirmed implementation responsibilities to Tong Fu. The user subsequently authorized publishing the two complete manuscripts unchanged at `assets/papers/QCVS.pdf` and `assets/papers/CFMS.pdf`, with paper-title links to the repository's GitHub PDF pages. Submission screenshots and access credentials remain private.
+The expanded English and Chinese project descriptions follow the reference homepage's background, technical modules and core-results structure, checked at `https://ryannnice.github.io/` on 2026-11-16. Technical content and numbers come from the supplied local manuscripts, not the reference author's projects. They describe the research methods and reported results without assigning unconfirmed implementation responsibilities to Tong Fu. The user subsequently authorized publishing the two complete manuscripts unchanged at `assets/papers/QCVS.pdf` and `assets/papers/CFMS.pdf`. Paper-title links were then redirected, at the user's request, to the corresponding overview figures (`#qcvs-overview` and `#cfms-overview`) on the homepage; the CV uses the Chinese-page destinations. Submission screenshots and access credentials remain private.
 
 | Public detail | Local source and interpretation |
 | --- | --- |
