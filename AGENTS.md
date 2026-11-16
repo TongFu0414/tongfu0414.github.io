@@ -5,7 +5,7 @@ This repository is Tong Fu's (付彤) Jekyll/GitHub Pages academic homepage. Its
 ## Content and evidence
 
 - `about.md` is the English homepage at `/`; `zh.md` is its Chinese counterpart at `/zh/`. Keep their facts, publication states, and review items aligned.
-- `_config.yml` controls identity, navigation, contact links, and site metadata. The GitHub account is `TongFu0414`; the contact email is `futong0414@163.com`, matching the current user-designated CV.
+- `_config.yml` controls identity, navigation, contact links, and site metadata. The GitHub account is `TongFu0414`; the contact email is `910755853@qq.com`, matching the current user-designated CV.
 - The user's application PDF is the sole canonical CV. The public `assets/CV_TongFu.pdf` must be an unchanged copy of it; do not create an alternative website CV.
 - Use the user-provided `images/me.jpg` avatar with the reference theme's circular treatment. The user states the profile location is Hangzhou. The WeChat contact opens the existing modal and displays `Ft_Be_admitted_to` as text.
 - The sidebar names Taiyuan University of Technology (211) and says Tong Fu is seeking MPhil opportunities for Fall 2027. Avoid replacing this with a research-keyword/applicant tagline. School-name parentheses display `211`, not an abbreviation.

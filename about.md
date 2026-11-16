@@ -156,5 +156,5 @@ I am currently seeking <strong class="intro-highlight">MPhil opportunities for F
 ## Contact {#contact}
 
 Academic CV：[**Tong Fu (付彤)**]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }})<br>
-Email: [**futong0414@163.com**](mailto:futong0414@163.com)<br>
+Email: [**910755853@qq.com**](mailto:910755853@qq.com)<br>
 WeChat：Ft_Be_admitted_to
