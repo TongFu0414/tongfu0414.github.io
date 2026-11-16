@@ -46,4 +46,6 @@ When browser preview is available, inspect the English homepage, Chinese page, a
 
 ## Publishing
 
+After each requested change is complete and checked, commit and push it to the repository. The user explicitly requests pushing every time; no additional confirmation is needed.
+
 The only deployment target for this task is `TongFu0414/tongfu0414.github.io` on GitHub Pages. Preserve the public repository's audience. Create the first commit only after the Tong Fu content and checks are ready, then verify the remote Pages build and actual site URL.
