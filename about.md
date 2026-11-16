@@ -120,11 +120,11 @@ I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free t
 
 ### Manuscripts Under Review
 
-- **T. Fu**<sup>&#42;</sup> et al., QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning. *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
+- **T. Fu**<sup>&#42;</sup> et al., [QCVS: Question-Contrastive Visual Steering for Multimodal Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/QCVS.pdf). *2027 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2027).* **Under review.**
 
 ### Accepted Papers
 
-- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning. *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
+- Q. Huang<sup>&#42;</sup>, H. Lin<sup>&#42;</sup>, **T. Fu**, Y. Wang, Z. Fu, Q. Wang, Y. Sun<sup>†</sup>, and D. Zhang<sup>†</sup>, [CFMS: A Coarse-to-Fine Multimodal Synthesis Framework for Enhanced Tabular Reasoning](https://github.com/TongFu0414/tongfu0414.github.io/blob/main/assets/papers/CFMS.pdf). *2026 Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026, Main Track).* **Accepted.**
 
 <p class="publication-note"><sup>&#42;</sup> Equal contribution. <sup>†</sup> Corresponding authors.</p>
 
