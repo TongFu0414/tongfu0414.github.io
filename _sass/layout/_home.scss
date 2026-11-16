@@ -1,5 +1,13 @@
 /* Homepage-specific cards and embeds. */
 
+.page__content .intro-highlight {
+  color: #c62828;
+}
+
+html[data-theme="dark"] .page__content .intro-highlight {
+  color: #ff8a80;
+}
+
 .page__content .publication-note,
 .page__content .research-background > summary {
   font-family: inherit;

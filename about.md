@@ -24,9 +24,9 @@ Nice to meet you here!<br>
 I graduated in **Computer Science** from [Taiyuan University of Technology (211)](https://english.tyut.edu.cn/) in 2024.
 
 My research experience focuses on **multimodal reasoning**, **inference-time steering**, and **structured-data understanding**.<br>
-Building on this background, I am keen to explore a broad range of frontier AI research directions.
+<span class="intro-highlight">I am keen to explore a broad range of frontier AI research directions.</span>
 
-I am currently seeking **MPhil opportunities for Fall 2027**. Please feel free to contact me（[CV]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }}) &nbsp; <a href="#email-modal" data-dialog-open="email-modal" aria-controls="email-modal" aria-haspopup="dialog">Email</a> &nbsp; <a href="#wechat-modal" data-dialog-open="wechat-modal" aria-controls="wechat-modal" aria-haspopup="dialog">WeChat</a>）.
+I am currently seeking <strong class="intro-highlight">MPhil opportunities for Fall 2027</strong>. Please feel free to contact me（[CV]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }}) &nbsp; <a href="#email-modal" data-dialog-open="email-modal" aria-controls="email-modal" aria-haspopup="dialog">Email</a> &nbsp; <a href="#wechat-modal" data-dialog-open="wechat-modal" aria-controls="wechat-modal" aria-haspopup="dialog">WeChat</a>）.
 
 ## Research Interests {#research-interest}
 

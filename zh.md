@@ -21,9 +21,9 @@ skills_mindmap: true
 我于 2024 年毕业于[太原理工大学（211）](https://www.tyut.edu.cn/)，专业为**计算机科学与技术**。
 
 我的研究经历涉及**多模态推理**、**推理时引导**与**结构化数据理解**。<br>
-在此基础上，我也希望探索更广泛的人工智能前沿研究方向。
+<span class="intro-highlight">我希望探索更广泛的人工智能前沿研究方向。</span>
 
-我目前正在寻找 **2027 年秋季入学的 MPhil 研究机会**，欢迎联系我（[CV]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }}) &nbsp; <a href="#email-modal" data-dialog-open="email-modal" aria-controls="email-modal" aria-haspopup="dialog">邮箱</a> &nbsp; <a href="#wechat-modal" data-dialog-open="wechat-modal" aria-controls="wechat-modal" aria-haspopup="dialog">微信</a>）。
+我目前正在寻找 <strong class="intro-highlight">2027 年秋季入学的 MPhil 研究机会</strong>，欢迎联系我（[CV]({{ '/assets/CV_TongFu.pdf' | relative_url }}?v={{ site.time | date: '%s' }}) &nbsp; <a href="#email-modal" data-dialog-open="email-modal" aria-controls="email-modal" aria-haspopup="dialog">邮箱</a> &nbsp; <a href="#wechat-modal" data-dialog-open="wechat-modal" aria-controls="wechat-modal" aria-haspopup="dialog">微信</a>）。
 
 ## 研究兴趣 {#research-interest}
 
